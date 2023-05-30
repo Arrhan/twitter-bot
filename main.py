@@ -1,9 +1,9 @@
 import tweepy
 import time
 
-#authentication for twitter API
-auth = tweepy.OAuthHandler('fegDEkv3O44xAUQDhPJzA2f0Y', 'hE1SfxuPrELWmyc7ZdrYbK6LOZpFD6fKOm4SlMauyVlVd3wsnN')
-auth.set_access_token('1446275545159798828-GXaPS5dfIYlfrgiw03WgoLyw4wqxzZ', 'C4Hvz4Rbk5DTMDyXfdgVv8HaJIuxkDmvxQC57tQW5F3Yv')
+#authentication for twitter API - Add relevant twitter access tokens
+auth = tweepy.OAuthHandler('', '')
+auth.set_access_token('', '')
 api = tweepy.API(auth)
 
 #display your twitter timeline
